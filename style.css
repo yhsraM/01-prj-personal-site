@@ -18,20 +18,34 @@ h1, h2 {
   font-size: 2.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
-  color: #ffffff; 
+}
+
+/* Make only h1 headings white for better visibility */
+h1 {
+  color: #ffffff !important;
+}
+
+p {
+  color: #ffffff; /* White text for better visibility */
+  font-size: 1.1rem; /* Slightly larger text for readability */
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Add a light green background to the About Me section */
 #about {
   background-color: #d4f9e251; /* light green */
   padding: 30px 0; /* add space above and below */
-  color: #000000; /* text color */
+  color: #ffffff; /* text color */
 }
 
 /* Add a light blue background to the Projects section */
 #projects {
   background-color: #e0f0ff51; /* light blue */
   padding: 30px 0; /* add space above and below */
+  color: #ffffff;
+  font-size: 1.1rem;
+  
 }
 
 /* Center all section content for a simple, clean look */
@@ -64,12 +78,12 @@ button {
 
 /* Add a light purple background to the navbar for a friendly look */
 .navbar {
-  background-color: #000000 !important;
+  background-color: #ffffff;
 }
 
 /* Optional: Make the navbar brand text a bit darker for contrast */
 .navbar-brand {
-  color: #000000 !important; /* darker purple */
+  color: #b432d8 !important; /* darker purple */
 }
 
 /* Add a hover effect for buttons */
