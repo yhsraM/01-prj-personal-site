@@ -1,1 +1,68 @@
 /* Add you CSS here */
+
+/* Set a clean, modern font and background for the whole page */
+body {
+  font-family: 'Poppins', sans-serif; /* Use Poppins font for a modern look */
+  font-weight: 400;
+  color: #1a1a1a;
+  background-color: #f9f9f9;
+}
+
+/* Make main headings bold and larger */
+h1, h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+/* Add a light green background to the About Me section */
+#about {
+  background-color: #d4f9e2; /* light green */
+  padding: 30px 0; /* add space above and below */
+}
+
+/* Add a light blue background to the Projects section */
+#projects {
+  background-color: #e0f0ff; /* light blue */
+  padding: 30px 0; /* add space above and below */
+}
+
+/* Add spacing between all sections */
+section {
+  margin-bottom: 30px; /* space below each section */
+  border-radius: 10px; /* rounded corners for a softer look */
+}
+
+/* Optional: Add some spacing to the header and footer for balance */
+header, footer {
+  margin-bottom: 30px;
+}
+
+/* Style all buttons with a modern look */
+button {
+  background-color: #4f46e5; /* A nice blue color */
+  color: #fff; /* White text */
+  padding: 0.75rem 1.5rem; /* Space inside the button */
+  border: none; /* No border */
+  border-radius: 6px; /* Rounded corners */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Add a simple animation to project cards on hover */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  transform: scale(1.05); /* Slightly grow the button */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Move up slightly on hover */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Add a soft shadow */
+}
