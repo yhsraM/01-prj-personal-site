@@ -5,7 +5,11 @@ body {
   font-family: 'Poppins', sans-serif; /* Use Poppins font for a modern look */
   font-weight: 400;
   color: #1a1a1a;
-  background-color: #f9f9f9;
+  background-color: #000000;
+  background-image: url('img/geobackgrd.jpg'); /* Add a background image */
+  background-size: cover; /* Make the image cover the whole background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
 }
 
 /* Make main headings bold and larger */
@@ -14,25 +18,27 @@ h1, h2 {
   font-size: 2.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
-  color: #111;
+  color: #ffffff; 
 }
 
 /* Add a light green background to the About Me section */
 #about {
-  background-color: #d4f9e2; /* light green */
+  background-color: #d4f9e251; /* light green */
   padding: 30px 0; /* add space above and below */
+  color: #000000; /* text color */
 }
 
 /* Add a light blue background to the Projects section */
 #projects {
-  background-color: #e0f0ff; /* light blue */
+  background-color: #e0f0ff51; /* light blue */
   padding: 30px 0; /* add space above and below */
 }
 
-/* Add spacing between all sections */
+/* Center all section content for a simple, clean look */
 section {
   margin-bottom: 30px; /* space below each section */
   border-radius: 10px; /* rounded corners for a softer look */
+  text-align: center; /* center the content */
 }
 
 /* Optional: Add some spacing to the header and footer for balance */
@@ -42,7 +48,7 @@ header, footer {
 
 /* Style all buttons with a modern look */
 button {
-  background-color: #4f46e5; /* A nice blue color */
+  background-color: #e546d0; /* A nice blue color */
   color: #fff; /* White text */
   padding: 0.75rem 1.5rem; /* Space inside the button */
   border: none; /* No border */
@@ -56,6 +62,16 @@ button {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Add a light purple background to the navbar for a friendly look */
+.navbar {
+  background-color: #000000 !important;
+}
+
+/* Optional: Make the navbar brand text a bit darker for contrast */
+.navbar-brand {
+  color: #000000 !important; /* darker purple */
+}
+
 /* Add a hover effect for buttons */
 button:hover {
   transform: scale(1.05); /* Slightly grow the button */
@@ -65,4 +81,14 @@ button:hover {
 .project-card:hover {
   transform: translateY(-5px); /* Move up slightly on hover */
   box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Add a soft shadow */
+}
+
+/* Make the text color white for the Contact and Footer sections */
+#contact {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
 }
